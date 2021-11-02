@@ -1,7 +1,7 @@
 function soma(a,b){
 
-    if (a+b==numer){
-        return a=b
+    if (a+b===number){
+        return a+b
     }else{
         return false
     }
