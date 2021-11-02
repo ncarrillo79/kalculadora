@@ -1,4 +1,4 @@
-function soma(a,b){
+function somar(a,b){
 
     if (a+b===number){
         return a+b
