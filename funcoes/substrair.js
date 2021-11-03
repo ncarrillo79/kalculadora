@@ -9,4 +9,4 @@ function somar(a,b){
   
 }
 
-console.log(somar(2,3))
+console.log(substrair(2,3))
