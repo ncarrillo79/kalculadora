@@ -1,7 +1,8 @@
 function substract(a,b){
 
     if (typeof a==='number' && typeof b==='number'){
-        return res3
+        
+        return a-b
     }else{
         
         return false
@@ -9,6 +10,5 @@ function substract(a,b){
   
 }
 
-console.log(substract(a,b))
 
 exports.substract = substract;

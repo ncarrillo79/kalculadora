@@ -1,7 +1,8 @@
 function add(a,b){
 
     if (typeof a==='number' && typeof b==='number'){
-        return res2
+        
+        return a+b
     }else{
         
         return false
@@ -9,12 +10,9 @@ function add(a,b){
   
 }
 
-console.log(add(a,b))
+
 
 
 exports.add = add;
 
 
-
-
-console.log(exports)

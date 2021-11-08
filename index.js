@@ -5,14 +5,11 @@ const multiply = require("./funcoes/multiply.js");
 
 
 
- a =3
- b= 5
- res= a*b
- res2=a+b
- res3=a-b
- res4=a/b
+ var a =3
+ var b= 5
+ 
 
-console.log(add);
-console.log(substract);
-console.log(divide);
-console.log(multiply);
+console.log(add.add(a,b))
+console.log(substract.substract(a,b))
+console.log(multiply.multiply(a,b))
+console.log(divide.divide(a,b))
