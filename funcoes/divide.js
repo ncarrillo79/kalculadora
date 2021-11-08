@@ -3,7 +3,7 @@ function divide(a,b){
 
     if (typeof a==='number' && typeof b==='number')
         if(b!=0){
-        return res4
+        return a/b
     }else{
         
         return false
