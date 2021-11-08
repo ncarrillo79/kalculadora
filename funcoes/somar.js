@@ -1,7 +1,12 @@
-function soma(a,b){
+function somar(a,b){
 
-   return a+b
+    if (typeof a==='number' && typeof b==='number'){
+        return a+b
+    }else{
+        
+        return false
+    }
   
 }
 
-console.log(soma(2,3))
+console.log(somar('2',3))

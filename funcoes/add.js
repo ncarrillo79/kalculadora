@@ -1,7 +1,7 @@
-function somar(a,b){
+function add(a,b){
 
     if (typeof a==='number' && typeof b==='number'){
-        return a*b
+        return res2
     }else{
         
         return false
@@ -9,4 +9,12 @@ function somar(a,b){
   
 }
 
-console.log(multiplicar(2,3))
+console.log(add(a,b))
+
+
+exports.add = add;
+
+
+
+
+console.log(exports)
