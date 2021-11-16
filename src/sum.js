@@ -1,12 +1,8 @@
+function soma(a,b){
 
-
-
-function multiply(a,b){
-    
     if (typeof a==='number' && typeof b==='number'){
-
-        return a*b
         
+        return a+b
     }else{
         
         return false
@@ -16,6 +12,8 @@ function multiply(a,b){
 
 
 
+module.exports.soma = soma;
+
+//console.log(exports.add)
 
 
-exports.multiply = multiply;
