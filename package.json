@@ -4,7 +4,8 @@
   "description": "Projeto Testes",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test2":"npm test index.test.js" 
   },
   "repository": {
     "type": "git",
