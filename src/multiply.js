@@ -1,8 +1,12 @@
-function add(a,b){
 
+
+
+function multiply(a,b){
+    
     if (typeof a==='number' && typeof b==='number'){
+
+        return a*b
         
-        return a+b
     }else{
         
         return false
@@ -13,6 +17,5 @@ function add(a,b){
 
 
 
-exports.add = add;
 
-
+module.exports.multiply = multiply;

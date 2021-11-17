@@ -1,0 +1,23 @@
+{
+  "name": "kalculadora",
+  "version": "1.0.0",
+  "description": "Projeto Testes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ncarrillo79/kalculadora.git"
+  },
+  "keywords": [
+    "jest",
+    "testing"
+  ],
+  "author": "Norma Carrillo",
+  "license": "ISC",
+  
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

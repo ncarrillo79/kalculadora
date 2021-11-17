@@ -13,7 +13,7 @@ function divide(a,b){
 
 //console.log(divide(2,-4))
 
-exports.divide = divide;
+module.exports.divide = divide;
 
 //exports crea un objeto con el atributo divide, que tiene como valor la funcion divide
 

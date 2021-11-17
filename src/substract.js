@@ -1,4 +1,4 @@
-function substract(a,b){
+function subs(a,b){
 
     if (typeof a==='number' && typeof b==='number'){
         
@@ -11,4 +11,4 @@ function substract(a,b){
 }
 
 
-exports.substract = substract;
+module.exports.subs= subs;
