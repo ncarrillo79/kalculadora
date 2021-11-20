@@ -3,7 +3,8 @@ const substract = require('../src/substract.js')
 const multiply = require('../src/multiply.js')
 const  {divide}  = require('../src/div.js')
 
-console.log(divide)
+
+
 
 
 

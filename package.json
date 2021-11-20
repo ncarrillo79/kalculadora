@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test2":"npm test index.test.js" 
+    "test2": "npm test kalculadora.test.js",
+    "test:coverage": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,10 @@
   ],
   "author": "Norma Carrillo",
   "license": "ISC",
-  
   "devDependencies": {
     "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "coverage": "^0.4.1"
   }
 }
