@@ -7,9 +7,6 @@ repositorio para criação de calculadora. Para implementar métodos  de operaç
 
 ## Começando :rocket:
 
-Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
-
-
 ## Pré-requisitos 🗒️
 
 
