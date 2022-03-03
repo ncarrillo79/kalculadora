@@ -49,26 +49,26 @@ console.log(div.divide(a,b))
 
 Para executar os testes no terminal execute o seguintes comando:
 
-npm test.
+
 
 ```
-$ npm test
+$ npm test ou
 
-> kalculadora@1.0.0 test
-> jest
-
- PASS  __test__/substract.test.js
- PASS  __test__/kalculadora.test.js
- PASS  __test__/sum.test.js
- PASS  __test__/multiply.test.js
+$ yarn test
+yarn run v1.22.5
+$ jest
+ PASS  __test__/index.test.js
  PASS  __test__/div.test.js
+ PASS  __test__/multiply.test.js
+ PASS  __test__/sum.test.js
+ PASS  __test__/substract.test.js
 
 Test Suites: 5 passed, 5 total
-Tests:       16 passed, 16 total
+Tests:       18 passed, 18 total
 Snapshots:   0 total
 Time:        0.34 s, estimated 1 s
 Ran all test suites.
-
+Done in 0.95s.
 ```
 
 ## 🛠️ Construído com
