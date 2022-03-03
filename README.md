@@ -49,12 +49,12 @@ console.log(div.divide(a,b))
 
 Para executar os testes no terminal execute o seguintes comando:
 
-npm test.
+
 
 ```
-$ npm test
+$ npm test ou
 
-yarn test
+$ yarn test
 yarn run v1.22.5
 $ jest
  PASS  __test__/index.test.js
