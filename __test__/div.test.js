@@ -28,6 +28,9 @@ it('valores mesclados', () => {
     b: 'banana',
     divide: 'undefined'
     }
+
+    const divisao = divide(mockValues);
+    expect(divisao).toBeUndefined()
 })
 ;
 
