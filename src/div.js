@@ -1,10 +1,11 @@
 function divide(a, b) {
   if (typeof a === "number" && typeof b === "number")
-    if (b != 0) {
+    if (b != 0 ) {
       return a / b;
-    } else {
-      return false;
-    }
+    } else  {
+      return false
+    
+}
 }
 
 module.exports.divide = divide;
